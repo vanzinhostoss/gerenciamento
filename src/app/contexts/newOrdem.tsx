@@ -3,7 +3,7 @@
 
 import { addDoc, collection, deleteDoc, doc, limit, onSnapshot, orderBy, query, updateDoc } from "firebase/firestore"
 import { createContext, type ReactNode, useEffect, useState } from "react"
-import { db } from "../services/firebaseConnection"
+import { db } from "../../firebaseConnection"
 import { toast } from "react-toastify"
 import type { dataItem } from "@/types/data"
 import type { chamadosItem } from "@/types/chamadosItem"

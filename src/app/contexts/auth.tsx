@@ -1,7 +1,7 @@
 "use client"
 import { createUserWithEmailAndPassword, signInWithEmailAndPassword, signOut } from "firebase/auth"
 import { createContext, type ReactNode, useEffect, useState } from "react"
-import { auth, db } from "../services/firebaseConnection"
+import { auth, db } from "../../firebaseConnection"
 import { doc, getDoc, setDoc } from "firebase/firestore"
 import type { dataItem } from "@/types/data"
 import { useRouter } from "next/navigation"
